@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  .main-block(style="background-color:#{bg_color}")
+    h1= org_name
+    p Welcome to #{org_name}'s instance of Sample App
+    p If you're seeing this you have successfully deployed an instance of this application.
+    p As you can see you can customize the applciation based on deployment-specific
+    p environment variables set through deis. Deis also sets a compute and memory allocation
+    p for this application.
